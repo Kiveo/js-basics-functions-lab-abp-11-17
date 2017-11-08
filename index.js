@@ -25,5 +25,15 @@ function distanceFromHqInFeet(distance) {
  }
 
 function calculatesFarePrice(start, destination) {
-  distanceTravelledInFeet();
+  switch (distanceTravelledInFeet() ) {
+    case expression:
+        
+      break;
+    case expression:
+      
+      break;
+      
+    default:
+      return 'Free Sample';
+  }
 }
