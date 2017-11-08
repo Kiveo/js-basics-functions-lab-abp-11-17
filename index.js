@@ -24,7 +24,7 @@ function distanceFromHqInFeet(distance) {
  }
 
 function calculatesFarePrice(start, destination) {
-  var changeling = distanceTravelledInFeet();
+  var changeling = distanceTravelledInFeet(start, destination);
   if (changeling <= 400) {
     return 0;
   } else if (changeling > 400 && changeling < 2000) {
