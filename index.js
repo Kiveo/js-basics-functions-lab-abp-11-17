@@ -1,8 +1,8 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks() {
-  let hq = 443;
+  let hq = 42;
   let blocks = 1;
-  return 43-blocks;
+  return 42-blocks;
 }
 
 function distanceFromHqInFeet() {
