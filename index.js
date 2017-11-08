@@ -25,6 +25,5 @@ function distanceFromHqInFeet(distance) {
  }
 
 function calculatesFarePrice(start, destination) {
-  distance = destination - start;
-
+  distanceTravelledInFeet();
 }
