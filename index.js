@@ -26,12 +26,12 @@ function distanceFromHqInFeet(distance) {
 
 function calculatesFarePrice(start, destination) {
   switch (distanceTravelledInFeet() ) {
-    case feet >= 400:
+    case (feet >= 400):
         return 0;
     case expression:
-      
+
       break;
-      
+
     default:
       return 'Free Sample';
   }
