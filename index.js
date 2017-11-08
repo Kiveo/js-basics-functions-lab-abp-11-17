@@ -24,14 +24,14 @@ function distanceFromHqInFeet(distance) {
  }
 
 function calculatesFarePrice(start, destination) {
-  var feet = distanceTravelledInFeet() * 1;
-  if (feet <= 400) {
+  var changeling = distanceTravelledInFeet() * 1;
+  if (changeling <= 400) {
     return 0;
-  } else if (feet > 400 && feet < 2000) {
-      return feet * 0.02;
-  } else if (feet > 2000 && feet < 2500) {
+  } else if (changeling > 400 && changeling < 2000) {
+      return changeling * 0.02;
+  } else if (changeling > 2000 && changeling < 2500) {
       return 25;
-  } else if (feet => 2500) {
+  } else if (changeling => 2500) {
       return 'cannot travel that far';
   }
 }
