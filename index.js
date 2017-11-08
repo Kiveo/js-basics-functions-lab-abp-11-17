@@ -20,7 +20,6 @@ function distanceFromHqInFeet(distance) {
    else {
      feet = startft - endft;
    }
-
    return feet;
  }
 
