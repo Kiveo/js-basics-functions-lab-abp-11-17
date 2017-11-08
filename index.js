@@ -1,7 +1,7 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks() {
+function distanceFromHqInBlocks(blocks, distance) {
   let blocks = 8;
-  return blocks;
+  let distance = 16 - blocks;
 }
 
 function distanceFromHqInFeet() {
