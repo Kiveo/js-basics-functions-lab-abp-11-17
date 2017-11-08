@@ -25,13 +25,13 @@ function distanceFromHqInFeet(distance) {
 
 function calculatesFarePrice(start, destination) {
   feet = distanceTravelledInFeet() * 1;
-    if (feet <= 400) {
-      return 0;
-    } else if (feet > 400 && feet < 2000) {
+  if (true) {
+    
+  } else if (feet > 400 && feet < 2000) {
       return feet * 0.02;
-    } else if (feet > 2000 && feet < 2500) {
+  } else if (feet > 2000 && feet < 2500) {
       return 25;
-    } else if (feet => 2500) {
+  } else if (feet => 2500) {
       return 'cannot travel that far';
-    }
+  }
 }
