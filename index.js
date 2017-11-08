@@ -34,7 +34,7 @@ function calculatesFarePrice(start, destination) {
       return fare;
     case expression:
       return 100;
-    default:
+    case (feet > 2500):
       return 'cannot travel that far';
   }
 }
