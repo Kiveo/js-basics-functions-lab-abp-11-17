@@ -1,7 +1,7 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(blocks, distance) {
-  blocks = 8;
-  distance = 42 - blocks;
+  distance = 8;
+  blocks = 42 - blocks;
   return blocks;
 }
 
