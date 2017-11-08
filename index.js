@@ -25,7 +25,7 @@ function distanceFromHqInFeet(distance) {
  }
 
 function calculatesFarePrice() {
-  let feet = distanceTravelledInFeet();
+  feet = distanceTravelledInFeet();
   let fare = feet * 0.02;
   switch (feet) {
     case (feet >= 400):
