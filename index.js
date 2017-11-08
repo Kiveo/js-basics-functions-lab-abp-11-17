@@ -1,6 +1,6 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks() {
-  let blocks = 1;
+  let blocks = 8;
   return blocks;
 }
 
